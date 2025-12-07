@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tankdaten Visualisierung</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tankdaten Visualisierung</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#analytics">Analyse</a></li>
+                <li><a href="#settings">Einstellungen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <div id="visualization-container">
+                <!-- Visualisierungen werden hier geladen -->
+                <div class="chart-container" id="chart-1">
+                    <h3>Tankfüllstand über Zeit</h3>
+                    <canvas id="tank-level-chart"></canvas>
+                </div>
+                <div class="chart-container" id="chart-2">
+                    <h3>Verbrauchsstatistik</h3>
+                    <canvas id="consumption-chart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="analytics">
+            <h2>Datenanalyse</h2>
+            <div id="analytics-container">
+                <!-- Analyse-Tools werden hier geladen -->
+            </div>
+        </section>
+
+        <section id="controls">
+            <h2>Steuerung</h2>
+            <div class="control-panel">
+                <button id="load-data-btn">Daten laden</button>
+                <button id="export-btn">Exportieren</button>
+                <button id="refresh-btn">Aktualisieren</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tankdaten Visualisierung</p>
+    </footer>
+
+    <!-- JavaScript Dateien -->
+    <script src="src/js/config.js"></script>
+    <script src="src/js/dataLoader.js"></script>
+    <script src="src/js/visualization.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

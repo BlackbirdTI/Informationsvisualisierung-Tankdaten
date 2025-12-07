@@ -1,0 +1,20 @@
+{
+  "name": "informationsvisualisierung-tankdaten",
+  "version": "1.0.0",
+  "description": "Web-Framework zur Visualisierung von Tankdaten",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server ."
+  },
+  "keywords": [
+    "visualization",
+    "tankdaten",
+    "dashboard",
+    "data-visualization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

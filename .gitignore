@@ -1,0 +1,40 @@
+# Entwicklungsumgebung
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Abhängigkeiten
+node_modules/
+bower_components/
+
+# Build-Artefakte
+dist/
+build/
+*.min.js
+*.min.css
+
+# Temporäre Dateien
+tmp/
+temp/
+*.tmp
+
+# Umgebungsvariablen
+.env
+.env.local
+.env.*.local
+
+# Coverage und Tests
+coverage/
+.nyc_output/
