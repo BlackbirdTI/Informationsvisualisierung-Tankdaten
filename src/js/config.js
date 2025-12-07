@@ -39,6 +39,10 @@ const CONFIG = {
 };
 
 // Konfiguration als global verfügbar machen
+if (typeof window !== 'undefined') {
+    window.CONFIG = CONFIG;
+}
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }
